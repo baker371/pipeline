@@ -21,6 +21,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
       - name: Testing APIs
         uses: cclauss/GitHub-Action-for-pytest@master
         with:
