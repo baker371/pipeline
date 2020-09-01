@@ -34,7 +34,7 @@ setup(
                         'pytz',
                         'PyYAML',
                         'requests',
-                        'scipy',
+                        'scipy==1.5.2',
                         'seaborn',
                         'six',
                         'toml',
