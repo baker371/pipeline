@@ -25,7 +25,7 @@ setup(
                         'pandas',
                         'Pillow',
                         'pluggy',
-                        'numpy',
+                        'numpy==1.19.1',
                         'py',
                         'pyparsing',
                         'pytest',
