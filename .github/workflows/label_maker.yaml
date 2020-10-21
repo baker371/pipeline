@@ -40,8 +40,8 @@ jobs:
         
     - name: Move json file
       run: |
-          mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner
-          mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner/go
+          mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner/
+
         
     - name: Apply Labels
       run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
