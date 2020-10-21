@@ -1,0 +1,170 @@
+[
+
+    {
+        "name": "A1 Injection ",
+        "description": "cc99ff",
+        "color": ""
+    },
+
+    {
+        "name": "A2 Broken Authentication",
+        "description": "",
+        "color": "ff99ff"
+    },
+
+    {
+        "name": "A6 Sensitive Data Exposure",
+        "description": "",
+        "color": "9999ff"
+    },
+
+    {
+        "name": "A11 DoS",
+        "description": "",
+        "color": "99ffff"
+    },
+
+    {
+        "name": "behavior",
+        "description": "",
+        "color": "ccff99"
+    },
+
+    {
+        "name": "ci",
+        "description": "",
+        "color": "ffff99"
+    },
+
+    {
+        "name": "Changes requested",
+        "description": "ndicates that some modifications needs to be implemented.",
+        "color": "0033cc"
+    },
+
+    {
+        "name": "Duplicate",
+        "description": "Indicates similar issues or pull requests.",
+        "color": "6600cc"
+    },
+
+    {
+        "name": "Help wanted ",
+        "description": "Indicates that a maintainer wants help on an issue or pull request.",
+        "color": "cc0033"
+    },
+
+    {
+        "name": "Jupyter Notebook",
+        "description": "Indicates a local Jupyter Notebook.",
+        "color": "009933"
+    },
+
+    {
+        "name": "New Feature",
+        "description": "009999",
+        "color": ""
+    },
+
+    {
+        "name": "P0",
+        "description": "",
+        "color": "994d00"
+    },
+
+    {
+        "name": "P1",
+        "description": "",
+        "color": "ffe0b3"
+    },
+
+    {
+        "name": "P2",
+        "description": "",
+        "color": "ff9900"
+    },
+
+    {
+        "name": "P3",
+        "description": "",
+        "color": "808080"
+    },
+
+    {
+        "name": "Research",
+        "description": "",
+        "color": "b3d9ff"
+    },
+
+    {
+        "name": "Ready for review",
+        "description": "",
+        "color": "20e5d8"
+    },
+
+    {
+        "name": "Invalid  💥",
+        "description": "Indicates that an issue or pull request is no longer relevant",
+        "color": "fbca04"
+    },
+    {
+        "name": "Merge Conflict ↩️",
+        "description": "Indicates a merge conflict.",
+        "color": "fbca04"
+    },
+    {
+        "name": "bug 🐞",
+        "description": "Indicates an unexpected problem or unintended.",
+        "color": "fbca04"
+    },
+    {
+        "name": "Question 💬",
+        "description": "Indicates that an issue or pull request needs more information.",
+        "color": "e99695"
+    },
+    {
+        "name": "Documentation 📓",
+        "description": "Indicates a need for improvements or additions to documentation.",
+        "color": "6addf7"
+    },
+    {
+        "name": "Enhancement ✨",
+        "description": "A new feature suggestion or improvement upon an existing feature.",
+        "color": "84b6eb"
+    },
+
+    {
+   "name": "Risk ⚠️",
+   "color": "d4c5f9",
+   "description": "",
+   "aliases": [
+     "Accepted",
+     "Fixed",
+     "High",
+     "Low",
+     "Medium",
+     "To accept",
+     "To Fix"
+   ]
+ },
+    {
+        "name": "security 🔒",
+        "description": "Questions, concerns, or suggestions for improving the security of the app.",
+        "color": "1d76db"
+    },
+    {
+        "name": "QA task ❇️",
+        "description": "",
+        "color": "c2e0c6"
+    },
+    {
+        "name": "Test needed 💤",
+        "description": "Work has stopped. There may be one or more blockers or needs more information.",
+        "color": "c2e0c6"
+    },
+    {
+        "name": "Quality ✅",
+        "description": "",
+        "color": "c2e0c6"
+    }
+]
