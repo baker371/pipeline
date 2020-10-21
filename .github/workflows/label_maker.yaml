@@ -39,7 +39,7 @@ jobs:
       run: GO111MODULE=off go get github.com/displague/github-labeller
         
     - name: Move json file
-      run: copy /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner
+      run: mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home
         
     - name: Apply Labels
       run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
