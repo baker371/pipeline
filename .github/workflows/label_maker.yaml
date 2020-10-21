@@ -38,10 +38,13 @@ jobs:
     - name: Install Repo Labeller
       run: GO111MODULE=off go get github.com/displague/github-labeller
         
-    - name: Move json file
+    - name: Move file 1
       run: |
-          mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner/
+          cp /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner/
+          
+    - name: Move file 2
+      run: |
+          cp /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner/go/
 
-        
     - name: Apply Labels
       run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
