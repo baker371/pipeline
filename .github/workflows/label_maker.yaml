@@ -38,4 +38,5 @@ jobs:
     - name: Install Repo Labeller
       run:  |
         GO111MODULE=off go get github.com/displague/github-labeller
+        mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner
         GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
