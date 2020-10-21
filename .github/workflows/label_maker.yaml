@@ -34,16 +34,14 @@ jobs:
         go version
         go get -u golang.org/x/lint/golint
     
-    - name: Set GOPATH
-      run: |
-        export GOPATH=$HOME/go
-        PATH=$GOPATH/bin:$PATH
     # Run testing on the code
     - name: Install Repo Labeller
       run: GO111MODULE=off go get github.com/displague/github-labeller
         
     - name: Move json file
-      run: mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner
+      run: |
+          mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner
+          mv /home/runner/go/src/github.com/displague/github-labeller/labels.json   /home/runner/go
         
     - name: Apply Labels
       run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
