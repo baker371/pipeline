@@ -35,6 +35,6 @@ jobs:
 
     # Run testing on the code
     - name: Install Repo Labeller
-      run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
+      run: ${GOPATH}/GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
       env:
         GOPATH: /home/runner/work/github-labeller/go
