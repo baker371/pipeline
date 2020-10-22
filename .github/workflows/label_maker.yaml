@@ -21,18 +21,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
-    # Setup Go
-    - name: Setup Go
-      uses: actions/setup-go@v2
-      with:
-        go-version: '1.13.8' # The Go version to download (if necessary) and use.
-
-    # Install all the dependencies
-    - name: Install dependencies
-      run: |
-        go version
-        go get -u golang.org/x/lint/golint
+    - run: |
+        apt install golang
+        export GOPATH=$HOME/go
+        export PATH=${PATH}:${GOPATH}/bin
     
     # Run testing on the code
     - name: Install Repo Labeller
