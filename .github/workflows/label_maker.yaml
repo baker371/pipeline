@@ -22,7 +22,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - run: |
-        apt install golang
+        sudo apt install golang
         export GOPATH=$HOME/go
         export PATH=${PATH}:${GOPATH}/bin
     
