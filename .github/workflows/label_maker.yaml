@@ -37,6 +37,11 @@ jobs:
     # Run testing on the code
     - name: Install Repo Labeller
       run: GO111MODULE=off go get github.com/displague/github-labeller
+    
+    # copy file
+    - name: Copy file
+      run: |
+        cp /home/runner/go/src/github.com/displague/github-labeller/labels.json  /home/runner/
       
 
     - name: Apply Labels
