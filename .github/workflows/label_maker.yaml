@@ -36,7 +36,7 @@ jobs:
     
     # Run testing on the code
     - name: Install Repo Labeller
-      run: GO111MODULE=off go get https://github.com/displague/github-labeller
+      run: GO111MODULE=off go get github.com/displague/github-labeller
       
 
     - name: Apply Labels
